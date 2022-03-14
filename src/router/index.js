@@ -34,6 +34,27 @@ export default new Router({
           name: 'Default',
           component: () => import('@/views/home'),
         },
+        {
+          path: '',
+          name: 'contact',
+          component: () => import('@/views/contact'),
+        },
+        {
+          path: '/plants',
+          name: 'plants',
+          component: () => import('@/views/plants'),
+        },
+ 
+        {
+          path: '/plantCare',
+          name: 'plantCare',
+          component: () => import('@/views/plantCare'),
+        },
+        {
+          path: '/tools',
+          name: 'tools',
+          component: () => import('@/views/tools'),
+        },
       ],
     },
   ],

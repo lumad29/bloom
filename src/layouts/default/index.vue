@@ -14,8 +14,8 @@
 
     components: {
       DefaultAppBar: () => import('./AppBar'),
-      DefaultDrawer: () => import('./Drawer'),
-      DefaultView: () => import('./View'),
+      DefaultView: () => import('./Drawer'),
+      DefaultDrawer: () => import('./View'),
     },
   }
 </script>
